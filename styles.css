@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-page {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #e6e6e6;
+  }
+  
+  .login-content {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .signup-content {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 480px;
+    max-width: 580px;
+  }
+  
+  .element-removebg-preview {
+    border-radius: 10px;
+    position: absolute;
+    width: 58px;
+    height: 56px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .text-wrapper {
+    text-align: center;
+    font-family: "Oswald-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    margin-top: 70px;
+  }
+  
+  .buttonss-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center; 
+  }
+
+  .button-signin,
+  .button-signup{
+    position: relative;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width:fit-content;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  .button-signin {
+    background-color: #7ac2ff;
+    color: #000000;
+  }
+  
+  .button-signin .div {
+    font-family: "Noto Sans-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .button-signup,
+  .text-wrapper-4 {
+    font-family: "Inder-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+  }
+  
+  .div-wrapper,
+  .overlap-2,
+  .input-email,
+  .input-password {
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 1px solid #000000;
+    margin-top: 13px;
+    text-align: center;
+    outline: none;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center;
+  }
+
+  .input-email,
+  .input-password {
+    font-size: 15px;
+    border: none;
+    margin-bottom: 10px;
+    width: 100%; /* Make sure the input takes the full width */
+  }
+  
+  .text-wrapper-2,
+  .text-wrapper-3 {
+    font-family: "Noto Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000099;
+    font-size: 15px;
+  }
+  
+  .eye {
+    width: 16px;
+    height: 15px;
+  }
+  
+  .line,
+  .img {
+    width: 118px;
+    height: 1px;
+    margin-top: 20px;
+  }
+  
+  .text-wrapper-4 {
+    font-size: 15px;
+    color: #0000009e;
+    margin-top: 20px;
+  }
+  
+  .button-google,
+  .button-facebook {
+    background-color: #ebebeb;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .text-wrapper-5,
+  .text-wrapper-6 {
+    font-family: "Inder-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  
+  .icon-google-icon,
+  .icon-facebook {
+    width: 13px;
+    height: 13px;
+  }
+  
+  .text-wrapper-5,
+  .icon-google-icon {
+    margin-right: 10px;
+  }
+  
+  .text-wrapper-6,
+  .icon-facebook {
+    margin-right: 10px;
+  }
+   
+
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .facebook-button,
+  .google-button {
+    position: relative;
+    background: #EBEBEB;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 50px; /* Adjust padding as needed */
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .text-wrapper-4 {
+    font-family: "Inder-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 13px;
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
