@@ -51,10 +51,12 @@ body {
   .text-wrapper {
     text-align: center;
     font-family: "Oswald-Bold", Helvetica;
-    font-weight: 700;
+    font-weight: 100;
     color: #000000;
-    font-size: 36px;
-    margin-top: 70px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 8px;
   }
   
   .buttonss-container{
@@ -168,7 +170,6 @@ body {
     height: 13px;
   }
   
-  .text-wrapper-5,
   .icon-google-icon {
     margin-right: 10px;
   }
@@ -241,4 +242,74 @@ body {
     position: absolute;
     bottom: 20px;
     left: 10px;
-}
+  }
+  .menu2 {
+    background: #EBEBEB;
+    border-radius: 8px;
+    border: none;
+    height: 100%;    
+    width: 70vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: relative;
+    margin-left: 25px;
+  }
+  
+  .submenu2 {
+    background-color: #c0c0c0;
+    border-radius: 8px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 20px 5px;
+    height: 100%;
+  }
+  
+  .welcome {
+    text-align: center;
+    margin-top: 15%;
+  }
+  
+  .paragraphHomePage {
+    text-align: justify;
+    padding: 100px;
+  }
+  
+  .buttonGoToTask {
+    background: #7AC2FF;
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .buttonGoToTask:active {
+    background-color: #1f618d; /* Tıklama anındaki rengi */
+  }
+  .work-button,
+  .personal-button,
+  .study-button,
+  .clickable-button {
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    border-radius: 8px;
+  }
+
+  .text-wrapper-3,
+  .text-wrapper-5,
+  .text-wrapper-7,
+  .text-wrapper-8 {
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .TaskMaster {
+    width: 100%;
+  }
