@@ -26,6 +26,13 @@ body {
     max-width: 580px;
   }
 
+  .login-page .text-wrapper {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-family: "Oswald-Bold", Helvetica;
+  }
   .signup-content {
     position: relative;
     background-color: #ffffff;
@@ -36,17 +43,15 @@ body {
     max-width: 580px;
   }
   
-  .element-removebg-preview {
-    border-radius: 10px;
-    position: absolute;
+  .login-page .element-removebg-preview {
+    border-radius: 8px;
     width: 58px;
     height: 56px;
-    top: 20px;
-    left: 50%;
     transform: translateX(-50%);
     object-fit: cover;
     margin-bottom: 20px;
-  }
+    padding-left: 100%;
+    }
   
   .searchbar {
     text-align: center;
