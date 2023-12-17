@@ -278,6 +278,18 @@ body {
     padding: 20px 5px;
     height: 100%;
   }
+
+  .clickable-link {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    cursor: pointer;
+    
+  }
+
+  .clickable-button {
+    cursor: pointer;
+    /* Add other button styles as needed */
+  }
   
   .welcome {
     text-align: center;
@@ -299,13 +311,19 @@ body {
     font-size: 20px;
     color: white;
     margin: auto;
-    display: block;
+    display: flex;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
   }
+
+  
   .buttonGoToTask:active {
-    background-color: #1f618d; /* Tıklama anındaki rengi */
+    background-color: #1f618d; 
   }
+
   .type-button,
   .clickable-button {
     border: unset;
@@ -336,7 +354,7 @@ body {
 
   .todayMenu {
     background: #EBEBEB;
-    border-radius: 8px;
+    border-radius: 30px;
     height: 85%;    
     width: 70vw;
     padding-left: 10px;
@@ -345,8 +363,8 @@ body {
     position: relative;
     margin-left: 25px;
     margin-top: 5%;
-    border: 2px solid #000000;
-  }
+    border: 1px rgba(0, 0, 0, 0.40) solid;
+    }
 
   .today {
     text-align: left;
@@ -355,7 +373,6 @@ body {
   }
 
   .todayAddNewTask {
-    border-radius: 8px;
     background-color: #EBEBEB;
     height: 40px;
     width: 95%;
@@ -364,21 +381,23 @@ body {
     color: black;
     margin: auto;
     display: flex;
-    border: 1px solid #000000;
+    border-radius: 12px; 
+    border: 1px rgba(0, 0, 0, 0.40) solid ;   
     text-align: left;
     box-sizing: border-box;
     padding-top: 5px;
   }
 
   .todayAddNewTask button {
-    background-color: #EBEBEB;
+    background-color: transparent;
     display: flex;
     border: none; /* Remove the border for the button */
-    height: 20px;
+    height: 30px;
     align-items: center;
     justify-content: center;
-    padding-top: 13px;
+    padding-top: 20px 20px;
     cursor: pointer;
+
   }
 
   .todayAddNewTask .plusImg {
@@ -393,6 +412,7 @@ body {
     padding-left: 1%;
     padding-top: 7px;
     height: 20px;
+    width: 94%;
     outline: none;
   }
 
