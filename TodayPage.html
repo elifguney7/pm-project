@@ -111,14 +111,54 @@
         <h1 class="upperToday">Today</h1>
       <div class="todayMenu"> 
           <h1 class="today">Today</h1>
-          <button class="todayAddNewTaskButton">
-            <img class="plusImg" src="add.png">
-            Add New Task</button>
+          <div class="todayAddNewTask">
+            <button onclick="addNewTask()">
+              <img class="plusImg" src="add.png">
+            </button> 
+            <input class= "task-desc" placeholder="Add New Task " > 
+          </div>
             <input class="todayCheckbox" type="checkbox"> Database create for company <br>
             <input class="todayCheckbox" type="checkbox"> Website templates <br>
-            <input class="todayCheckbox" type="checkbox"> Meet work teem
+            <input class="todayCheckbox" type="checkbox"> Meet work team
         </div>
     </div>
 
   </div>
+
+
+
+  <script>
+    function addNewTask() {
+      // Get the input value
+      var taskDescInput = document.querySelector('.task-desc');
+      var taskDesc = taskDescInput.value;
+  
+      if (taskDesc.trim() === '') {
+        alert('Please enter a task description.');
+        return;
+      }
+  
+      // Create a line break element
+      var lineBreak = document.createElement('br');
+
+      // Create a new checkbox element
+      var newCheckbox = document.createElement('input');
+      newCheckbox.type = 'checkbox';
+      newCheckbox.className = 'todayCheckbox';
+
+      // Create a text node with the task description
+      var textNode = document.createTextNode(taskDesc);
+  
+      // Append the checkbox, text, and line break to the todayMenu div
+      var todayMenu = document.querySelector('.todayMenu');
+      todayMenu.appendChild(lineBreak);
+      todayMenu.appendChild(newCheckbox);
+      todayMenu.appendChild(textNode);
+      
+  
+      // Clear the input field
+      taskDescInput.value = '';
+    }
+  </script>
+
 </body>     
