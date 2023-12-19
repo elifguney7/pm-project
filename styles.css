@@ -382,6 +382,12 @@ body {
     margin-top: 5%;
     border: 1px rgba(0, 0, 0, 0.40) solid;
   }
+  .todayMenu hr, .thisWeekMenu hr, .tomorrowMenu hr{
+    margin-left: 35px;
+    margin-bottom: 5px;
+    width: 90%; 
+    border: 1px solid #ddd; 
+}
 
   .tomorrowMenu  {
     background: #EBEBEB;
