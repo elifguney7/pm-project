@@ -314,16 +314,21 @@ body {
   
   .welcome {
     text-align: center;
-    margin-top: 15%;
+    margin-top: 12%;
   }
   
   .paragraphHomePage {
-    text-align: justify;
-    padding: 100px;
+    text-align: center;
+    padding: 175px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Oswald-Bold", Helvetica;
   }
+ 
   
   .buttonGoToTask {
-    background: #59a6e9;
+    background: #59b0fc;
     border-radius: 8px;
     border: none;
     height: 40px;
@@ -339,6 +344,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+
 
   
   .buttonGoToTask:active {
