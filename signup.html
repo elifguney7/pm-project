@@ -11,35 +11,29 @@
           <img class="element-removebg-preview" src="2.png" />
           <div class="text-wrapper">Sign Up</div>
           <div class="div-wrapper">
-            <!-- Change the text-wrapper-2 div to an input field for email -->
-            <input type="text" class="input-email" placeholder="Firstname" />
+            <input type="text" id="firstname-input" class="input-email" placeholder="Firstname" />
+          </div>
+          
+          <div class="overlap-2">           
+            <input type="text" id="lastname-input" class="input-password" placeholder="Lastname" />
           </div>
           
           <div class="overlap-2">
-            <!-- Change the text-wrapper-3 div to an input field for password -->
-            <input type="text" class="input-password" placeholder="Lastname" />
-          </div>
-          
-          <div class="overlap-2">
-            <!-- Change the text-wrapper-3 div to an input field for password -->
-            <input type="text" class="input-password" placeholder="Email" />
+            <input type="email" id="email-input-signup" class="input-password" placeholder="Email" />
           </div>
 
           <div class="overlap-2">
-            <!-- Change the text-wrapper-3 div to an input field for password -->
-            <input type="password" class="input-password" placeholder="Password" />
+            <input type="password" id="password-input-signup" class="input-password" placeholder="Password" />
           </div>
 
           <div class="overlap-2">
-            <!-- Change the text-wrapper-3 div to an input field for password -->
-            <input type="password" class="input-password" placeholder="Re-enter the password" />
+            <input type="password" id="repassword-input" class="input-password" placeholder="Re-enter the password" />
           </div>
 
           <div class="buttonss-container">
-          <!-- Change the overlap div to a button for signing in -->
-          <a href="signin.html" class="button-signin"><div class="div">Sign up</div></a>
-          
-          <!-- Change the paragraph to a button for signing up -->
+          <button id="signup-button" class="button-signin"><div class="div">Sign up</div></button>
+
+
           <a href="signin.html" class="button-signup">Already have an account? Sign in</a>
           </div>
               
@@ -47,5 +41,6 @@
         </div>
       </div>
     </div>
+    <script src="signup.js"></script>
   </body>
 </html>
